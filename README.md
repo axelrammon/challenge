@@ -47,4 +47,4 @@ Este repositório contém um desafio de um CRUD básico utilizando Laravel no ba
 
 ## Entrega do Porjeto
 
-### Ao finalizar o projeto, você deverá realizar a solicitação de PR para a MAIN e em seguida nos comunicar por e-mail o seu Nome completo, número de Whatsapp e user do github para o E-mail: marlonmaia.dev@gmail.com
+### Ao finalizar o projeto, você deverá nos enviar o seu Nome completo, número de Whatsapp e link do repositório para o E-mail: marlonmaia.dev@gmail.com
