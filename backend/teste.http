@@ -1,0 +1,52 @@
+GET http://localhost:8000/api/turmas HTTP/1.1
+###
+POST http://localhost:8000/api/turmas HTTP/1.1
+content-type: application/json
+
+{
+    "nome": "turma04",
+    "ano": 2021,
+    "periodo": "matutino"
+}
+###
+GET http://localhost:8000/api/turmas/2 HTTP/1.1
+###
+PUT http://localhost:8000/api/turmas/3 HTTP/1.1
+content-type: application/json
+
+{
+    "nome": "turma03",
+    "ano": 2020,
+    "periodo": "noturno"
+}
+###
+DELETE http://localhost:8000/api/turmas/1 HTTP/1.1
+###
+###
+###
+
+GET http://localhost:8000/api/alunos HTTP/1.1
+###
+POST http://localhost:8000/api/alunos HTTP/1.1
+content-type: application/json
+
+{
+    "nome": "Jo",
+    "email": "jao@gmail.com",
+    "data_nascimento": "2001-05-09 00:47:19",
+    "turma_id": 6
+}
+###
+GET http://localhost:8000/api/alunos/2 HTTP/1.1
+###
+PUT http://localhost:8000/api/alunos/1 HTTP/1.1
+content-type: application/json
+
+{
+    "nome": "Axel",
+    "email": "axel@gmail.com",
+    "data_nascimento": "1997-02-07 00:47:19",
+    "turma_id": 2
+}
+###
+DELETE http://localhost:8000/api/alunos/4 HTTP/1.1
